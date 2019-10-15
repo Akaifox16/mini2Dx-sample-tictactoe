@@ -96,6 +96,7 @@ project(":desktop") {
     }
 }
 
+/*
 project(":android") {
     apply plugin: "android"
 
@@ -128,6 +129,7 @@ project(":ios") {
         compile "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-ios"
     }
 }
+*/
 
 tasks.eclipse.doLast {
     delete ".project"

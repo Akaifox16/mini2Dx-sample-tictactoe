@@ -21,13 +21,15 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-package org.mini2Dx.tictactoe;
+package org.mini2Dx.tictactoe.model;
 
 /**
- * Represents a space on the game board
+ * Stores the game's state
  */
-public enum Space {
-	FREE,
-	X,
-	O
+public enum GameState {
+	PLAYER_1_TURN,
+	PLAYER_2_TURN,
+	PLAYER_1_VICTORY,
+	PLAYER_2_VICTORY,
+	TIED
 }
